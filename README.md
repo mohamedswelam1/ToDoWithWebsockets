@@ -3,6 +3,9 @@
 
 CRUD Todo list with user tasks and status of every task We need to preview the todo list with WEBSOCKET
 
+# Prerequisites
+Laravel 9 mySQL 8.0.27 PHP 8.1.
+
 ## Installation
 composer require beyondcode/laravel-websockets
 php artisan vendor:publish --provider="BeyondCode\LaravelWebSockets\WebSocketsServiceProvider" --tag="migrations"
